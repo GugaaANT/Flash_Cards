@@ -1,7 +1,7 @@
 .cartao_conteudo h3 {
-    background-color: tomato;
+    background-color: rgb(255, 8, 8);
     text-align: left;
-    padding: 0.5rem;
+    padding: 0.1rem;
     position: absolute;
     margin: 0.6rem;
     border-radius: 0.6rem;
@@ -23,5 +23,26 @@ footer p {
     margin-top: 0.5rem;
 }
 body {
-    
+background-color: rgb(255, 255, 255);
 }
+
+#nn {
+    font-size: 24px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartao{
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(15, 255, 255);
+    border-radius: 0.6rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+    
